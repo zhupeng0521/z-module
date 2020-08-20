@@ -1,7 +1,7 @@
 package com.module.zhupeng.data.repository;
 
-import com.digiwin.bpm.module.common.data.Paging;
-import com.digiwin.bpm.module.common.util.LogUtils;
+import com.module.zhupeng.data.Paging;
+import com.module.zhupeng.util.LogUtils;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.DetachedCriteria;

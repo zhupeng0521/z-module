@@ -1,6 +1,6 @@
 package com.module.zhupeng.data.repository;
 
-import com.digiwin.bpm.module.common.data.Paging;
+import com.module.zhupeng.data.Paging;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Projections;

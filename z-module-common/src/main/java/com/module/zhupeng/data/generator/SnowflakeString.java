@@ -1,6 +1,6 @@
 package com.module.zhupeng.data.generator;
 
-import com.digiwin.bpm.module.common.util.SnowflakeIdUtil;
+import com.module.zhupeng.util.SnowflakeIdUtil;
 import org.hibernate.HibernateException;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
 import org.hibernate.id.IdentifierGenerator;

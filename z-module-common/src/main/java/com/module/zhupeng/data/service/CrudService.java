@@ -1,11 +1,11 @@
 package com.module.zhupeng.data.service;
 
-import com.digiwin.bpm.module.common.data.Paging;
-import com.digiwin.bpm.module.common.data.QueryResult;
-import com.digiwin.bpm.module.common.data.annotation.SaveEntityData;
-import com.digiwin.bpm.module.common.data.annotation.UpdateEntityData;
-import com.digiwin.bpm.module.common.data.annotation.UpdateMapData;
-import com.digiwin.bpm.module.common.data.repository.ICrudRepository;
+import com.module.zhupeng.data.Paging;
+import com.module.zhupeng.data.QueryResult;
+import com.module.zhupeng.data.annotation.SaveEntityData;
+import com.module.zhupeng.data.annotation.UpdateEntityData;
+import com.module.zhupeng.data.annotation.UpdateMapData;
+import com.module.zhupeng.data.repository.ICrudRepository;
 import org.hibernate.query.Query;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -230,6 +230,7 @@ public abstract class CrudService<K extends Serializable, E extends Serializable
      *
      * @return 所有记录集合
      */
+    @Override
     public List<E> load() {
         return this.getRepository().load();
     }
@@ -243,6 +244,7 @@ public abstract class CrudService<K extends Serializable, E extends Serializable
      * @param paging     分页 & 排序
      * @return 数据集合
      */
+    @Override
     public List<E> query(String whereHQL, Map<String, Object> parameters, Paging paging) {
         return this.getRepository().query(whereHQL, parameters, paging);
     }
@@ -255,6 +257,7 @@ public abstract class CrudService<K extends Serializable, E extends Serializable
      * @param parameters 参数集合
      * @return 数据集合
      */
+    @Override
     public List<E> query(String whereHQL, Map<String, Object> parameters) {
         return this.getRepository().query(whereHQL, parameters);
     }
@@ -266,6 +269,7 @@ public abstract class CrudService<K extends Serializable, E extends Serializable
      * @param paging     分页
      * @return 数据集合
      */
+    @Override
     public List<E> query(Map<String, Object> parameters, Paging paging) {
         return this.getRepository().query(parameters, paging);
     }
@@ -276,6 +280,7 @@ public abstract class CrudService<K extends Serializable, E extends Serializable
      * @param parameters 参数集合
      * @return 数据集合
      */
+    @Override
     public List<E> query(Map<String, Object> parameters) {
         return this.getRepository().query(parameters);
     }
@@ -286,6 +291,7 @@ public abstract class CrudService<K extends Serializable, E extends Serializable
      * @param paging 分页
      * @return 数据集合
      */
+    @Override
     public List<E> query(Paging paging) {
         return this.getRepository().query(paging);
     }

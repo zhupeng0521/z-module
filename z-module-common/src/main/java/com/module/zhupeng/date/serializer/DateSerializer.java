@@ -1,10 +1,10 @@
 package com.module.zhupeng.date.serializer;
 
-import com.digiwin.bpm.module.common.date.DateFormatStyle;
-import com.digiwin.bpm.module.common.date.DateUtils;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
+import com.module.zhupeng.date.DateFormatStyle;
+import com.module.zhupeng.date.DateUtils;
 
 import java.io.IOException;
 import java.util.Date;

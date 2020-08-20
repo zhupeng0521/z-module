@@ -1,7 +1,7 @@
 package com.module.zhupeng.data.service;
 
-import com.digiwin.bpm.module.common.data.Paging;
-import com.digiwin.bpm.module.common.data.QueryResult;
+import com.module.zhupeng.data.Paging;
+import com.module.zhupeng.data.QueryResult;
 
 import java.io.Serializable;
 import java.util.Collection;

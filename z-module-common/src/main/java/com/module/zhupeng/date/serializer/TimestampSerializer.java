@@ -1,9 +1,9 @@
 package com.module.zhupeng.date.serializer;
 
-import com.digiwin.bpm.module.common.date.DateConstants;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
+import com.module.zhupeng.date.DateConstants;
 
 import java.io.IOException;
 import java.sql.Timestamp;

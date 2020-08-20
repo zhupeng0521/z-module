@@ -8,8 +8,8 @@
  */
 package com.module.zhupeng.io;
 
-import com.digiwin.bpm.module.common.util.Charsets;
-import com.digiwin.bpm.module.common.util.LogUtils;
+import com.module.zhupeng.util.Charsets;
+import com.module.zhupeng.util.LogUtils;
 import org.springframework.lang.Nullable;
 import org.springframework.util.StreamUtils;
 
@@ -30,8 +30,9 @@ import java.nio.charset.Charset;
 public class IoUtils extends StreamUtils {
     public static void closeQuietly(@Nullable Closeable closeable) {
         try {
-            if (closeable != null)
+            if (closeable != null) {
                 closeable.close();
+            }
         } catch (IOException iOException) {
             LogUtils.getLogger().error(iOException.getMessage());
         }

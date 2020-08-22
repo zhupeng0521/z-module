@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /ZModule
+
+
+
+spring:
+  thymeleaf:
+    cache: false
+    encoding: utf-8
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username:
+    password:
+    url:

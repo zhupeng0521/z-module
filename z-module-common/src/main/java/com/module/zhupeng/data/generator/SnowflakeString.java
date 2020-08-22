@@ -17,7 +17,7 @@ import java.io.Serializable;
 public class SnowflakeString implements IdentifierGenerator {
 
     public static final String NAME = "SnowflakeString";
-    public static final String TYPE = "com.digiwin.bpm.module.common.data.generator.SnowflakeString";
+    public static final String TYPE = "com.module.zhupeng.data.generator.SnowflakeString";
     @Override
     public Serializable generate(SharedSessionContractImplementor sharedSessionContractImplementor, Object o) throws HibernateException {
         return String.valueOf(SnowflakeIdUtil.nextId());

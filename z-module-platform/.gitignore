@@ -13,7 +13,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
-.rebel.xml
+rebel.xml
 ### IntelliJ IDEA ###
 .idea
 *.iws

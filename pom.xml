@@ -217,11 +217,12 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <addResources>true</addResources>
                     <fork>true</fork>
                     <!-- spring-boot:run 中文乱码解决 -->
                     <jvmArguments>-Dfile.encoding=UTF-8</jvmArguments>
                     <!--指定入口类，打包的时候用-->
-                    <mainClass>com.baizhi.Application</mainClass>
+                    <mainClass>com.module.zhupeng.ZModulePlatformApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

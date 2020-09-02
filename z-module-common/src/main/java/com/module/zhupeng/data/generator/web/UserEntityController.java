@@ -1,10 +1,10 @@
 package com.module.zhupeng.data.generator.web;
-import com.module.zhupeng.data.generator.core.Result;
-import com.module.zhupeng.data.generator.core.ResultGenerator;
 import com.module.zhupeng.data.generator.model.UserEntity;
 import com.module.zhupeng.data.generator.service.UserEntityService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.module.zhupeng.data.result.Result;
+import com.module.zhupeng.data.result.ResultGenerator;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

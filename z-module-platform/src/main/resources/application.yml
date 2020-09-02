@@ -10,9 +10,9 @@ spring:
     encoding: utf-8
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username:
-    password:
-    url:
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
     druid:
       validationQuery: SELECT 1
       initialSize: 10

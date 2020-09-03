@@ -3,6 +3,9 @@ package com.module.zhupeng;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
+/**
+ * @author 15122
+ */
 public class ServletInitializer extends SpringBootServletInitializer {
 
     @Override

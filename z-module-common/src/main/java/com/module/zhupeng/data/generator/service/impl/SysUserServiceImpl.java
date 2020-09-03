@@ -1,8 +1,8 @@
 package com.module.zhupeng.data.generator.service.impl;
 
-import com.module.zhupeng.data.generator.dao.UserEntityMapper;
-import com.module.zhupeng.data.generator.model.UserEntity;
-import com.module.zhupeng.data.generator.service.UserEntityService;
+import com.module.zhupeng.data.generator.dao.SysUserMapper;
+import com.module.zhupeng.data.generator.model.SysUser;
+import com.module.zhupeng.data.generator.service.SysUserService;
 import com.module.zhupeng.data.service.AbstractService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,8 +16,8 @@ import javax.annotation.Resource;
 */
 @Service
 @Transactional
-public class UserEntityServiceImpl extends AbstractService<UserEntity> implements UserEntityService {
+public class SysUserServiceImpl extends AbstractService<SysUser> implements SysUserService {
     @Resource
-    private UserEntityMapper userMapper;
+    private SysUserMapper sysUserMapper;
 
 }

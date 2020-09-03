@@ -1,8 +1,8 @@
-package ${basePackage}.web;
-import ${basePackage}.core.Result;
-import ${basePackage}.core.ResultGenerator;
-import ${basePackage}.model.${modelNameUpperCamel};
-import ${basePackage}.service.${modelNameUpperCamel}Service;
+package ${basePackage}.generator.web;
+import ${basePackage}.result.Result;
+import ${basePackage}.result.ResultGenerator;
+import ${basePackage}.generator.model.${modelNameUpperCamel};
+import ${basePackage}.generator.service.${modelNameUpperCamel}Service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,7 +14,8 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
-* Created by ${author} on ${date}.
+* Created by @author ${author}
+* @date ${date}
 */
 @RestController
 @RequestMapping("${baseRequestMapping}")

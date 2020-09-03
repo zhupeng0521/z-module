@@ -1,9 +1,9 @@
-package ${basePackage}.service.impl;
+package ${basePackage}.generator.service.impl;
 
-import ${basePackage}.dao.${modelNameUpperCamel}Mapper;
-import ${basePackage}.model.${modelNameUpperCamel};
-import ${basePackage}.service.${modelNameUpperCamel}Service;
-import com.module.zhupeng.data.service.AbstractService;
+import ${basePackage}.generator.dao.${modelNameUpperCamel}Mapper;
+import ${basePackage}.generator.model.${modelNameUpperCamel};
+import ${basePackage}.generator.service.${modelNameUpperCamel}Service;
+import ${basePackage}.service.AbstractService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -11,8 +11,9 @@ import javax.annotation.Resource;
 
 
 /**
- * Created by ${author} on ${date}.
- */
+* Created by @author ${author}
+* @date ${date}
+*/
 @Service
 @Transactional
 public class ${modelNameUpperCamel}ServiceImpl extends AbstractService<${modelNameUpperCamel}> implements ${modelNameUpperCamel}Service {

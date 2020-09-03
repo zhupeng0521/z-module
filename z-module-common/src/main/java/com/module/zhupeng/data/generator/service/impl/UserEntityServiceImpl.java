@@ -11,8 +11,9 @@ import javax.annotation.Resource;
 
 
 /**
- * Created by 祝大朋 on 2020/09/02.
- */
+* Created by @author zhupeng
+* @date 2020/09/03
+*/
 @Service
 @Transactional
 public class UserEntityServiceImpl extends AbstractService<UserEntity> implements UserEntityService {

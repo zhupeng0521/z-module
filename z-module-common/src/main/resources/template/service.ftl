@@ -1,10 +1,11 @@
-package ${basePackage}.service;
-import ${basePackage}.model.${modelNameUpperCamel};
-import com.module.zhupeng.data.service.Service;
+package ${basePackage}.generator.service;
+import ${basePackage}.generator.model.${modelNameUpperCamel};
+import ${basePackage}.service.Service;
 
 /**
- * Created by ${author} on ${date}.
- */
+* Created by @author ${author}
+* @date ${date}
+*/
 public interface ${modelNameUpperCamel}Service extends Service<${modelNameUpperCamel}> {
 
 }
